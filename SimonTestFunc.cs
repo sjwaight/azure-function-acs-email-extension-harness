@@ -15,7 +15,7 @@ namespace testfunc
         [FunctionName("SimonTestFunc")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get")] HttpRequest req, 
-            [CommunicationServiceEmail()] IAsyncCollector<EmailMessage> emailClient, 
+            [CommunicationServiceEmail(ConnectionString = "YourAppSettingValue")] IAsyncCollector<EmailMessage> emailClient, 
             ILogger log)
         {
             
