@@ -10,8 +10,8 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="SiliconValve.Demo.AcsMailBinding">
-    <HintPath>dlls\AcsEmailBinding.dll</HintPath>
-  </Reference>
+      <HintPath>dlls\AcsEmailBinding.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
